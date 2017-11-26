@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>out put all</title>
+  </head>
+  <body>
+<% for (var i =0; i < data.length; i++) {%>
+
+        <h1>File <%=i+1 %> </h1>
+        <h3>name:</h3>
+
+        <p><%=data[i].name%></p>
+        <h3>size:</h3>
+
+        <p><%=data[i].size%> bytes</p>
+        <h3>time created:</h3>
+        <p><%=data[i].time%></p>
+
+    <% } %>
+  </body>
+</html>
